@@ -17,6 +17,8 @@ gem 'decent_decoration', '~> 0.1.0'
 gem 'activemodel-serializers-xml', git: 'https://github.com/rails/activemodel-serializers-xml'
 gem 'factory_girl'
 gem 'rspec-rails'
+gem 'sqlite3'
+gem 'turbolinks'
 
 
 group :development, :test do
