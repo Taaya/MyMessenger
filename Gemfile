@@ -19,6 +19,7 @@ gem 'factory_girl'
 gem 'rspec-rails'
 gem 'sqlite3'
 gem 'turbolinks'
+gem 'capybara', '2.2.0'
 
 
 group :development, :test do
