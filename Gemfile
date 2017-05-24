@@ -20,6 +20,7 @@ gem 'rspec-rails'
 gem 'sqlite3'
 gem 'turbolinks'
 gem 'capybara', '2.2.0'
+gem 'bootstrap-sass', '2.3.2.0'
 
 
 group :development, :test do
