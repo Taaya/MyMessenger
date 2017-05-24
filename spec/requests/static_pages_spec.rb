@@ -43,4 +43,17 @@ describe "Static pages" do
       expect(page).to have_title("My Messenger | About Us")
     end
   end
+
+  describe "Contact page" do
+
+    it "should have the content 'Contact'" do
+      visit '/static_pages/contact'
+      expect(page).to have_content('Contact')
+    end
+
+    it "should have the title 'Contact'" do
+      visit '/static_pages/contact'
+      expect(page).to have_title("My Messenger | Contact")
+    end
+  end
 end
