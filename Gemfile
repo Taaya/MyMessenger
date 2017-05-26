@@ -26,4 +26,5 @@ gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'factory_girl_rails', '4.2.1'
 end
